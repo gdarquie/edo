@@ -15,6 +15,10 @@ use App\Entity\Position;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
+/**
+ * Class NarrativeDTOTransformer
+ * @package App\Component\Transformer
+ */
 class NarrativeDTOTransformer implements TransformerInterface
 {
     /**
